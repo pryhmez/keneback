@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Sentinel Admin</title>
+    <link rel="icon" href="/img/favicon.png">
+    <link rel="stylesheet" href="/css/styles.min.css">
+</head>
+
+<body>
+    <div class="centered-form">
+        <div class="centered-form__box">
+            <h1>join</h1>
+            <form id="user-form" >
+            
+                <label>ID</label>
+                <input type="text" name="username" placeholder="Display name" id="userId" required>
+                <label>Room</label>
+                <input type="text" name="room" placeholder="Room">
+                <button>Join</button>
+            </form>
+
+        </div>
+
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/chat.js"></script>
+</body>
+
+</html>
